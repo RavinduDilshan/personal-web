@@ -1,0 +1,31 @@
+.outlinedbutton {
+   font-family: 'Arial', sans-serif;
+   font-size: 16px;
+    font-weight: bold;
+    color: #ffffff; 
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    margin-bottom: 20px;
+    
+  }
+
+
+  .outlinedbutton:hover {
+    color: white;
+    background-color: #007BFF;
+  }
+  
+  .outlinedbutton:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .outlinedbutton:active {
+    background-color: #0056b3; /* Darker blue on click */
+    border-color: #0056b3;
+  }
+  
